@@ -1,0 +1,18 @@
+# Claude / OMC 로컬 상태
+.omc/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# 모델·학습 산출물 (용량이 커서 git에 올리지 않음)
+hf_cache/
+outputs/
+checkpoints/
+*.safetensors
+*.bin
+*.gguf
+*.pt
+wandb/
